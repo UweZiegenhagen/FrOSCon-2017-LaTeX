@@ -34,16 +34,16 @@ The German expanded version
     
     \end{document}
 
-
-
-## Step 3: Expanding the document structure
+## Step 3: Expanding the document structure (for a thesis)
 
 * all the *sections
 * Table of contents
 * Images and Tables
+* Bibliography
 
 ## Step 4: Math
 
 * Basic math
-* 
+* more math
 
+## Presentations with Beamer
