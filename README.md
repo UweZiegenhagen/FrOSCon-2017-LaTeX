@@ -6,6 +6,7 @@ Materials for my LaTeX course at FrOSCon 2017
 
 ## Step 1: What is it all about?
 * What is TeX, LaTeX, where does it come from?
+* LaTeX and HTML
 * How can I install TeX?
 * Which editor should/can I use?
  * Not MS Word!
@@ -58,6 +59,33 @@ Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengende
 * Images and Tables
 * Bibliography
 
+Hyperref stuff for copy & paste
+    
+    \usepackage{hyperref}
+    \hypersetup{
+     bookmarks=true, % show bookmarks bar
+     unicode=false,  % non - Latin characters in Acrobat’s bookmarks
+     pdftoolbar=true,% show Acrobat’s toolbar
+     pdfmenubar=true,% show Acrobat’s menu
+     pdffitwindow=false, % window fit to page when opened
+     pdfstartview={FitH},% fits the width of the page to the window
+     pdftitle={My title},% title
+     pdfauthor={Author}, % author
+     pdfsubject={Subject},   % subject of the document
+     pdfcreator={Creator},   % creator of the document
+     pdfproducer={Producer}, % producer of the document
+     pdfkeywords={keyword1} {key2} {key3},   % list of keywords
+     pdfnewwindow=true,  % links in new window
+     colorlinks=true,% false: boxed links; true: colored links
+     linkcolor=red,  % color of internal links
+     filecolor=cyan, % color of file links
+     citecolor=green, % color of file links
+     urlcolor=magenta% color of external links
+    }
+
+
+
+
 ## Step 4: Math
 
 * Basic math
@@ -73,4 +101,5 @@ Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengende
 ## More TeX-topics
 
 * Integration and Interaction
+* Writing letters with scrlttr2
 * Code-Inclusion
