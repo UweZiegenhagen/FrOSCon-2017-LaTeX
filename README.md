@@ -2,6 +2,7 @@
 
 Materials for my LaTeX course at FrOSCon 2017 
 
+* Some older slides: [http://uweziegenhagen.de/wp-content/uploads/2014/08/Froscon-2014-Folien.pdf](http://uweziegenhagen.de/wp-content/uploads/2014/08/Froscon-2014-Folien.pdf)
 
 ## Step 1: What is it all about?
 * What is TeX, LaTeX, where does it come from?
