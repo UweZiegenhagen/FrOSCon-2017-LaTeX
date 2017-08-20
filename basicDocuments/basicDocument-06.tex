@@ -4,6 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
+\usepackage{booktabs}
 
 \usepackage{graphicx}
 %\includegraphics{KnuthAtOpenContentAlliance}
@@ -80,13 +81,43 @@ Hallo & Froscon & ich & bin eine Tabelle, ich mache viel Spaß. \\ \hline
 HAHAHAH & HAHAHA & HAHAH & HAHAHA \\ \hline
 \end{tabular}
 
+% \usepackage{booktabs} in the preamble
+
+
 \begin{table}[h]
 \caption{Ich bin eine Tabelle}\label{tab:hallo}
-\begin{tabular}{clrp{4cm}}
-Hallo & Froscon & ich & bin eine Tabelle, ich mache viel Spaß. \\
-HAHAHAH & HAHAHA & HAHAH & HAHAHA \\
+\begin{center}
+\begin{tabular}{clrp{4cm}} \toprule
+Hallo & Froscon & ich & bin eine Tabelle \\ \midrule
+HAHAHAH & HAHAHA & HAHAH & HAHAHA \\ 
+HAHAHAH & HAHAHA & HAHAH & HAHAHA \\ 
+HAHAHAH & HAHAHA & HAHAH & HAHAHA \\ 
+HAHAHAH & HAHAHA & HAHAH & HAHAHA \\ 
+HAHAHAH & HAHAHA & HAHAH & HAHAHA \\ \bottomrule
 \end{tabular}
+\end{center}
 \end{table}
+
+
+Das ist keine $a^2+b^2=c^2$  abgesetzte Formel, sie ist eine Fließtext-Formel.
+
+$$a^2+b^2=c^2$$ % TeX-Systax
+
+
+\begin{equation}
+a^2+b^2=c^2
+\end{equation}
+
+
+\begin{equation}
+-\frac{p}{2} 
+\pm 
+\sqrt{ 
+  \left(\frac{p}{2}\right)^2 - q 
+}
+\end{equation}
+
+
 
 Auch gibt es niemanden, der den Schmerz an sich liebt, sucht oder wünscht, nur, weil er Schmerz ist, es sei denn, es kommt zu zufälligen Umständen, in denen Mühen und Schmerz ihm große Freude bereiten können. Um ein triviales Beispiel zu nehmen, wer von uns unterzieht sich je anstrengender körperlicher Betätigung, außer um Vorteile daraus zu ziehen?
 
