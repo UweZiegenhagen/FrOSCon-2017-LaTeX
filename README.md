@@ -1,3 +1,5 @@
+REMARK: This content will not be updated! See https://github.com/UweZiegenhagen/LaTeXEinsteigerKurs for new introductory materials regarding LaTeX!
+
 # FrOSCon-2017-LaTeX
 
 Materials for my LaTeX course at FrOSCon 2017 
